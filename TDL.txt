@@ -1,0 +1,65 @@
+﻿DEADLINE next monday (november 6th):
+Programming (Spencer):
+(use placeholder assets)
+1. Camera controller
+2. Game controller
+   1. Player controller
+      1. Have hurtboxes (collider)
+      2. Activate hitboxes
+      3. Movement
+      4. Take and give control (death/ new game)
+   1. Enemies
+      1. Ai
+      2. Basic version
+      3. Version that has consumables (diff color)
+      4. Activate hitboxes
+   1. Ui stuff
+      1. Player health
+      2. Start menu
+      3. Pause menu
+      4. Game over
+      5. Consumable slot
+
+
+Game assets (Zach):
+1. Nean
+   1. Spear
+   2. Character body (Head, torso, limbs)
+1. Dennis
+   1. Axe
+   2. Character body (Head, torso, limbs)
+1. Consumables (for now)
+   1. Health (jungle fruits 3 at least)
+   2. Damage buff (Dragon fruit)
+1. Mob (smol spherical, kirby esque)
+2. Boss mob (same stuff more intimidating)
+3. Scene textures
+   1. Background (foreground)
+   2. Background (sky day + volcano)
+   3. Floor (normal + volcano)
+
+
+Other (Ryley):
+1. Music
+   1. Main menu
+   2. Game music
+   3. Boss theme
+   4. Game over jingle
+1. Sfx
+   1. Player hit
+   2. Pickup (use+drop)
+   3. Enemy kill
+   4. Enemy hit
+   5. Weapon swing
+   6. Player death
+   7. Enemy attack
+   8. Walk sound
+1. Ui
+   1. Main menu
+   2. Pause screen (option/controls)
+   3. Game
+      1. Player health
+      2. Consumables
+      3. Player icon
+   1. Revive player
+Formal write-up shit

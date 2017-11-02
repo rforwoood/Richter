@@ -1,0 +1,30 @@
+﻿* When creating photoshop documents for sprites make sure the resolution is divisible into 100x100 pixel segments, for relative scaling that is a 1x1 plane in unity!
+* To see how objects scale against each other create planes in unity and scale them using their transform to make them  the appropriate size (i.e. 22x10 = 2200 x 1000 pixels)
+* To see completed sprites in the game download the current version of the game posted on drive and import them as textures, and apply them to planes.
+
+
+Photoshop resolutions
+
+
+Ground 1600x1400
+
+
+Players 180x300
+
+
+Pickup 150x150
+
+
+Foreground bg 2200x700 
+
+
+Spear 300x50
+
+
+Back background (skybox) 4400x1400
+
+
+SWATCHES>PANTONE+ solid uncoated
+
+
+Use brush posted in drive

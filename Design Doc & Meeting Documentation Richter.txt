@@ -1,0 +1,287 @@
+﻿Forwood, Jesionowski, Roccapriore 
+RICHTER - Meeting Documentation
+
+
+________________
+
+
+Delegation (What we should be working on):
+* Zach: Ideas/rough designs for enemies chars and items, set up discord
+
+
+* Spencer: Movement on a 2.5d plane, figure out / optimize camera
+
+
+* Ryley: Figure out wtf github is and modify document based on notes from tuesday's meeting (and assist others as needed with programming/asset creation)
+________________
+
+
+Meeting To Do Lists:
+TDL for Meeting #2 Tuesday 10/23/2017 (Spencer + Zach):[a]
+* What are the characters
+* What are the weapons (boomerang?)
+* Write elevator Pitch
+
+
+________________
+
+
+
+
+Meeting Summaries:
+Summary of 1st Meeting (Spencer, Zach, Ryley) (lab) Monday 10/23/2017 3:15-7:00:
+* Finalized ideas on theme/visual style (decided on Cute Jungle), camera, inventory mechanic,  and controls
+* Started basic ideas on gameplay
+* Made this document (thanks Ethan Thibeault)
+* Made a meeting schedule
+
+
+Summary of 2nd Meeting (Spencer, Zach) (where) Weekday mm/dd/yyyy 0:00-0:00
+* Came up with character designs to work with
+* Started working on camera and boundaries
+Summary of 3rd Meeting (who) (where) Weekday mm/dd/yyyy 0:00-0:00
+* …
+________________
+
+
+Meeting Schedule:
+Day
+	Mon.
+	Tues.
+	Wed.
+	Thurs.
+	Fri.
+	Sat.
+	Sun.
+	Meeting or Nah
+	Meeting
+	Meeting
+	Meeting
+	Class
+	As needed
+	As needed
+	HELL NAH
+	Who is available
+	All
+	Zachary, Spencer
+	All
+	All
+	All (Chill)
+	All
+	NO ONE
+	Time 
+	3:15-7:00
+	3:15-7:00
+	3:15-7:00
+	3:15-7:00
+	4:45-7:00
+	12:00-4:00
+	N/A
+	Where
+	Lab
+	Lab
+	Lab
+	Lab
+	Front of conlon
+	Lab
+	N/A
+	
+
+________________
+
+
+Meeting Notes[b][c]:
+
+
+________________
+
+
+
+
+
+
+
+
+RICHTER - DESIGN DOC
+Team 
+Spencer Roccapriore - Programmer
+* sroccapr@student.fitchburgstate.edu 
+
+
+Zachary Jesionowski - Artist
+* zjesiono@student.fitchburgstate.edu 
+
+
+Ryley Forwood - Producer
+* rforwood@student.fitchburgstate.edu 
+________________
+
+
+Terminology
+Mob
+Consumable
+Hazard
+Buff
+Boss
+
+
+Pitch
+Cute-jungle themed 2 player co-op 2.5d side-scrolling beat em up.
+[d]
+Big Features
+* Local arcade co-op
+* Cute, nonviolent gameplay
+* Classic beat-em-up gameplay
+* Jungle themed stage, mobs and characters[e]
+
+
+Quick Info
+* Intended Platform:
+   * Arcade machines
+   * PC
+   * Mac
+* Intended Input:
+   * Keyboard
+   * Arcade stick+buttons
+   * Fightstick
+   * Xbox controllers
+* Genre: 
+   * Beat-em-up
+* Target Audience:
+   * Fellow classmates + Jeff Warmouth
+   * Students 18-25
+* Amount of Players:
+   * 2 (for now)
+________________
+
+
+Story / Background Information
+Nothing yet[f]
+
+
+________________
+
+
+Gameplay
+Controls[g]
+  
+P1: 
+* Movement: up down left right        
+* Buttons: 4: melee         7: jump         8: ranged attack
+     Z: item 1         C: item 2         3: Pause
+P2:
+* Movement: W A S D
+* Buttons: T: melee         I: jump         K: ranged attack
+                        G: item 1         F: item 2         Q: Pause
+
+
+
+
+
+
+
+
+Keyboard
+P1:
+* Movement: W, A, S, D 
+* Buttons: COMMA, PERIOD, FORWARD SLASH, L, SEMICOLON, APOSTROPHE
+* Exit Game: Esc 
+P2:
+* Movement: up, down, left, right
+* Buttons: NUM1, NUM2, NUM3, NUM4, NUM5, NUM6
+* Exit Game: Esc 
+
+
+Breakdown[h]
+
+
+Atom
+* Moving right towards end
+* Attacking mobs
+* Avoid hazards
+* Dodge mob attacks
+* Picking up items
+* Using items
+* Increasing score
+Session
+* Beating a wave of mobs
+* Fighting the End boss
+* Avoiding obstacles 
+* Reach end with both players alive
+Campaign
+* Aiming for a high score
+* Beating the game
+* Losing the game
+Win-State(s)
+* Beating the final boss
+* Beating the final boss with both players alive
+* Achieving a high score
+Fail-State(s)
+* Player health reaches 0 and is not revived (that player loses)
+* BOTH  Player health reaches 0 (and at least 1 is not revived = Gameover)
+THE FEATURES
+EXAMPLE GAMEPLAY[i]
+
+
+Players are introduced from off screen left. Controls are briefly displayed. Players get used to controls on simple, small groups of mobs. Players then progress onto harder mobs and are given consumables, which they use to defeat them. Hazards have distinct visual cues that indicate the players should avoid them. Players progress through rising incremented difficulty and eventually reach the boss mob. Players fight boss mob and receive a victory screen if they win.
+
+
+FEATURE [j]#1
+
+
+Inventory System: Each player has two consumable slots (one for healing/shield, and one for damaging mobs/buffing player) which each hold 1 pickup that players find as they defeat enemies/progress through the level.
+
+
+FEATURE [k]#2
+
+
+Revive system: Revive ally.
+        
+________________
+
+
+Inspiration & Resources
+* Donkey Kong Country
+* The Simpsons Arcade Video Game
+* Castle Crashers
+* Double Dragon
+* Kirby Superstar
+Mechanics[l]
+* Combat :
+   * The Simpsons Arcade Video Game/Castle Crashers (co-op beat-em-up, fight mobs to reach boss)
+* Inventory System
+   * Castlevania / Ninja Gaiden (pick up weapons for temporary use)
+* Camera/scene design:
+   * Double Dragon  (Camera controls)
+* Revive:
+   * Castle crashers (revive fallen partners by specific input)
+Visual Style
+* Donkey Kong Country Series (Silhouetted level, jungle theme)
+* Kirby  Series (“cute” player, mob and level theme)
+Narrative
+* N/A as of yet[m]
+________________
+
+
+Tools and Workflow[n]
+* Unity 2017.1.0f3 (64-bit)
+* Adobe Photoshop CC 2017
+* Github 
+* Google Drive
+        
+________________
+[a]Add to To Do List at the beginning of each meeting to plan it out, then create meeting summary at end of meeting.
+[b]Jot down notes or whatever here
+[c][Every time you have a meeting, use this space to write down your notes, then go back later and incorporate design decisions into the main document]
+[d][Write the elevator pitch of your awesome game - 2-3 sentences max, what you say to Ken Levine if you found him in an elevator.]
+[e][Bullet list the top 3-5 features of your game - what you would put on the “back of the box” to sell your game.]
+[f][Self-explanatory. Keep in mind however, this is not your story document section - this is for anyone reading this document to immediately understand what the story will be. Keep it short and simple.]
+[g][As soon as you know what kind of game you are making, start thinking about controls.]
+[h][Using the Atom, Session, Campaign breakdown write bullet points of the VERBS your player will be using, what will be interesting for them.]
+[i][Here write, in screenplay-esque style, what a session of your game might look like. What does the player see / hear / do?]
+[j][Write, as clearly and concisely as possible, about a specific feature, what it accomplishes, and what it requires.]
+[k][Write, as clearly and concisely as possible, about a specific feature, what it accomplishes, and what it requires.]
+[l]Dark Souls (Dueling combat, mobs larger than player)
+Super Mario Bros. (Side-Scrolling platforming, “floaty”)
+[m]build later
+[n][List and write about the tools your team will be using for this project. Are you using source control? How are files named? What engine or plugins are you using?]

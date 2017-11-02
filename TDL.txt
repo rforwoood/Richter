@@ -1,4 +1,5 @@
-﻿DEADLINE next monday (november 6th):
+﻿DEADLINE next Thursday (november 9th):
+
 Programming (Spencer):
 (use placeholder assets)
 1. Camera controller
@@ -22,20 +23,24 @@ Programming (Spencer):
 
 
 Game assets (Zach):
+
 1. Nean
-   1. Spear
-   2. Character body (Head, torso, limbs)
-1. Dennis
-   1. Axe
-   2. Character body (Head, torso, limbs)
-1. Consumables (for now)
-   1. Health (jungle fruits 3 at least)
-   2. Damage buff (Dragon fruit)
-1. Mob (smol spherical, kirby esque)
+   Spear
+   Character body (layers: 1 Head, 1 torso, 4 limbs, 2 hands, 2 feet)
+
+2. Dennis
+   Character body (layers: 1 Head, 1 torso, 4 limbs, 2 hands, 2 feet)
+
+3. Consumables
+   1. Health (jungle fruits full and 1/2 eaten coconut, banana, apple)
+   2. Damage buff fruit (Dragon fruit)
+
+1. Mob (smol spherical, kirby esque, 1 head, 2 hands)
 2. Boss mob (same stuff more intimidating)
+
 3. Scene textures
    1. Background (foreground)
-   2. Background (sky day + volcano)
+   2. Background ( volcano)
    3. Floor (normal + volcano)
 
 
@@ -45,7 +50,7 @@ Other (Ryley):
    2. Game music
    3. Boss theme
    4. Game over jingle
-1. Sfx
+2. Sfx
    1. Player hit
    2. Pickup (use+drop)
    3. Enemy kill
@@ -54,12 +59,15 @@ Other (Ryley):
    6. Player death
    7. Enemy attack
    8. Walk sound
-1. Ui
+3. Ui
    1. Main menu
    2. Pause screen (option/controls)
    3. Game
       1. Player health
       2. Consumables
       3. Player icon
-   1. Revive player
-Formal write-up shit
+   4. Revive player
+Formal write-up
+
+playable beta due 11/9
+final project due 11/16

@@ -1,0 +1,6 @@
+General Programming To Do List (order by priority
+1) Player movement+jumping (prefab players + their scripts)
+2) Enemy movement/ai
+3) Pickups (prefab this when done)
+4) Hurtboxes + Hitboxes + figure out hitstun and I frames (player single attack, enemy single attack. Combo will come later)
+5) Player/Enemy Health counter
